@@ -1,0 +1,440 @@
+<style>
+body{
+background-image: url('https://i.imgur.com/GyZ3ucj.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+background-color:#000000;
+}
+
+::-webkit-scrollbar {width: 4px; height: 4px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #232f33;}
+
+#box1 {
+position:absolute;
+border:1px solid #232f33;
+width:35%;
+height:30%;
+left:5%;
+top:10%;
+-webkit-box-shadow: 0px 0px 15px 1px rgba(35,47,51,1);
+-moz-box-shadow: 0px 0px 15px 1px rgba(35,47,51,1);
+box-shadow: 0px 0px 15px 1px rgba(35,47,51,1);
+background-color:#10171c;
+}
+
+#box2 {
+position:absolute;
+border:1px solid #232f33;
+width:35%;
+height:45%;
+left:5%;
+top:45%;
+-webkit-box-shadow: 0px 0px 15px 1px rgba(35,47,51,1);
+-moz-box-shadow: 0px 0px 15px 1px rgba(35,47,51,1);
+box-shadow: 0px 0px 15px 1px rgba(35,47,51,1);
+background-color:#10171c;
+}
+
+#title1 {
+position:absolute;
+background-color:#060D12;
+border:1px solid #232f33;
+width:95%;
+height:10%;
+top:6%;
+left:2.5%;
+color:#666666;
+font-family:Contrail One;
+font-size:100%;
+letter-spacing:5px;
+}
+
+#picbox1 {
+position:absolute;
+background-color:#060D12;
+border:1px solid #232f33;
+width:30%;
+height:71%;
+top:22%;
+left:2.5%;
+background-image: url('https://i.imgur.com/LukWjqf.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox1:hover {
+background-image: url('https://i.imgur.com/J1oo1f7.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#textbox1 {
+position:absolute;
+overflow:auto;
+background-color:#060D12;
+border:1px solid #232f33;
+padding:1%;
+width:60%;
+height:66%;
+top:22%;
+left:35.5%;
+font-family:Ubuntu Condensed;
+color:#ffffff;
+font-size:60%;
+}
+
+#picbox2 {
+position:absolute;
+background-color:#060D12;
+border:1px solid #232f33;
+width:35%;
+height:92%;
+top:4%;
+left:62.5%;
+background-image: url('https://i.imgur.com/nO4v7fL.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox2:hover {
+background-image: url('https://i.imgur.com/0Fsedf9.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#content {
+position:absolute;
+overflow:auto;
+background-color:#060D12;
+border:1px solid #232f33;
+padding:2%;
+width:53%;
+height:65%;
+left:2.5%;
+top:4%;
+font-family:Ubuntu Condensed;
+color:#ffffff;
+font-size:80%;
+}
+
+#tabbox {
+position:absolute;
+width:57%;
+height:21%;
+left:4.5%;
+top:75%;
+}
+
+.tabs{
+display:inline-block;
+padding:1%;
+width:5%;
+height:90%;
+margin-top:0%;
+margin-left:4%;
+margin-right:3%;
+text-align:center;
+writing-mode: vertical-rl;
+text-orientation: sideways;
+text-transform:uppercase;
+color:#666666;
+font-family:Ubuntu Condensed;
+font-size:80%;
+background-color:#060D12;
+border:1px solid #232f33;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+color:#ffffff;
+background-color:#232f33;
+border:1px solid #060D12;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6 {
+display: none;
+}
+
+i {
+color:#444444;
+font-size:90%;
+}
+
+a {
+color:#385778;
+}
+
+h1 {
+color: #444444;
+letter-spacing:5px;
+font-family:Contrail One;
+border-bottom:1px dotted #444444;
+font-size: 100%;
+}
+
+b {
+font-size: 90%;
+letter-spacing:5px;
+font-family:Contrail One;
+color:#666666;
+}
+</style>
+
+<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Contrail+One|Ubuntu+Condensed" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="box1">
+<div id="title1">
+... The Skinwalker Chieftain ...
+</div>
+<div id="picbox1">
+</div>
+<div id="textbox1">
+<p align="center"><b>Name:</b><br>Hakidonmuya<br>
+<b>Nickname:</b><br>Haki<br>
+<b>True Age:</b><br>Unknown<br>
+<b>Physical Age:</b><br>Mid/Late Twenties<br>
+<b>Birthdate:</b><br>Mid Winter<br>
+<b>Gender:</b><br>Female<br>
+<b>Sexuality:</b><br>Demisexual<br></p>
+</div>
+</div>
+<div id="box2">
+<div id="picbox2">
+</div>
+<div id="tabbox">
+<span class="tabs" onClick="changeNavigation ('tab1')">Lore</span>
+<span class="tabs" onClick="changeNavigation ('tab2')">Inventory</span>
+<span class="tabs" onClick="changeNavigation ('tab3')">Racials</span>
+<span class="tabs" onClick="changeNavigation ('tab4')">Mana</span>
+<span class="tabs" onClick="changeNavigation ('tab5')">Primary</span>
+<span class="tabs" onClick="changeNavigation ('tab6')">Secondary</span>
+</div>
+<div id="content">
+<h1>Appearance</h1>
+<b>Height:</b> 5'2"<br>
+<b>Weight:</b> 110 lbs.<br><br>
+<b>Humanoid Form</b><br>
+A delicate curvy feminine frame shapes her body but she is often mistaken as being "too thin" or "malnourished." This is not the case at all, but rather, a defensive technique that allows her people to use the element of surprise. While all Skinwalkers have beautiful features in their humanoid forms, their leader's appearance stands above the rest. An oval symmetrical face with a strong structure and gently pronounced cheekbones is outlined by long straight black hair. Her irises are almost as white as the rest of her eyes and have black cat-like slits cutting through them as pupils. 
+<br><br>
+<b>True Form</b><br>
+While basically the same as her humanoid form, her true form gains a few extra attributes. She no longer looks weak since firm muscle appears under her skin, her fingernails and toe nails extend three inches and become claws. Her teeth become very sharklike, rows upon rows of pointed needle-like tips. Her spine becomes rigid, almost forcing spikes to poke out of her flesh, and a long three foot tail extends from its base, ending in a sharp knife-like curved structure shaped sort of like a scorpion's stinger. 
+<br><br>
+<h1>Personality</h1><br>
+Haki's moral alignment is hard to determine. While her cruel actions, ambitions, and selfish ways of thinking make her look completely evil, there's a pain behind her eyes. A wisdom no one can reach. In her own mind Haki has accepted the fact that she must be the evil that will bring about the good, and knows that someday she will be slain by forces whose plans are better than her own. This, however, is not evident in her words or actions and most that come across her will just see the evil that lies on the surface.
+</div>
+</div>
+
+<div id="tab1">
+<h1>Legend of the Tree</h1>
+In the beginning when humans first began roaming the Living Realms, their gods banded together and agreed to make special trees with magical properties and spread them throughout the lands in hidden places so humans would have to undergo trials to find them. It didn't take long for human Tribes and Families to locate these trees and occupy the surrounding lands, thankful to the gods for giving them such special gifts. 
+<br><br>
+Each tree came with specific instructions of use and care, the neglect and misuse of which would cause great damage to both the humans and their own lands. For quite some time they managed to keep peace with the gods and used the trees as instructed. Unfortunately, greed, the lust for power, and the desire for knowledge drove them to disobey the instructions of their own masters and they began to abuse the trees for their own selfish gain. 
+<br><br>
+Angered, the gods warned their people that if they would not stop, they would be forced to stop. Humanity decided to assume their deities were bluffing and refused to listen, so the gods created Guardians out of the fibers of each Magic Tree. The Guardians were powerful formiddable foes that stood between the humans and their misused gifts. Spiteful, humanity declared War on these Guardians and tried to be rid of them once and for all, but the Tree Guardians formed an organized group known as the Tree Alliance and worked together to win the War, hiding their trees from human eyes and banishing human blood from their soil forever. 
+<br><br>
+The Spiritualism Tree--deeply rooted in the North American Continent--was believed to be one of the few "divine" or "holy" gathering places. The very first Head of the Skinwalker Family was a forgiving man that welcomed all creatures into his home, regardless of their stance on the War. He was taken advantage of, however, and ended up losing his own life, leaving his very young daughter to take his place as Head of the Tribe. With her own hurts, she led her "Family" into seclusion, ordering them to kill any being that wasn't a fellow Guardian who dared tresspass on their territory. As she grew older, her authority was questioned, and some of the Tribe began to rebel. Not wanting to cause division and pain among her people, she took herself out of the equation until she was strong and wise enough to truly lead them, embracing a nomadic lifestyle while constantly searching for a way to become so powerful they would be forced to bend to her will.
+<br><br>
+<i>Special Note:</i> Legends are stories that may hold some truths, but this particular one has been passed down through generations of biased mouths, so who knows which parts really did happen, and which parts didn't.
+<br><br>
+<h1>Jobs in Society</h1>
+Skinwalkers have their own culture and small society of between twenty and thirty beings. Within this society are three possible jobs they may choose to take. Skinwalkers are identified by the pelts of their victims; what kind of victim they wear defines their job and rank.
+<br><br>
+<b>Warrior</b><br>
+A Warrior's job is to protect the Family. Warriors often wear pelts of opposing animals that attack without provocation such as: bears, lions, tigers, wolves, badgers, etc.
+<br>
+<b>Hunter</b><br>
+A Hunter's job is to catch and prepare food for the Family. Hunters often wear pelts of creatures that Skinwalkers commonly feast upon such as: snakes, deer, moose, birds, rodents, etc.
+<br>
+<b>Witchdoctor</b><br>
+A Witchdoctor's job is to heal sick and injured Family members as well as protect the Family on spiritual and magical levels. Witchdoctors often wear the skins of formiddable foes such as: dragons, humans, demons, angels, etc.
+<br><br>
+<h1>Choosing Your Job</h1>
+A Skinwalker is free to choose their own career path and can change their minds at any time simply by taking the life of a new victim and replacing their current attire.
+<br><br>
+<h1>Marriage & Mating</h1>
+Skinwalkers are not sexual creatures and usually only mate in order to reproduce. Because of this, marriages are often arranged, otherwise they would never choose a mate--or at least, it'd be a very rare instance. When a mate is given to them or chosen by them, however, they are extremely loyal to their partner.
+</div>
+
+<div id="tab2">
+<h1>High Mage Medium</h1>
+<b>The Falcon</b><br>
+A small stone carved into the shape of a typical falcon in a tribal style, with the head turned side-ways and the wingspan extended out both ways as far as they would be able to go. Little indentations and different sized and shaped dips in the stone's surface make up for more details to make the bird's shape obvious. A hole has been carved in the bird's head where the eye would be, and a leather string has been threaded through the eye to make the small totem wearable like a necklace. The entire stone, carving and all, is no bigger than two inches in height and width, but despite its marble appearance and its small size, the stone used to make it is very special. It is a natural material with a toughness equal to Titanium that seems to attract spirits in its raw, wild, and untouched form. Skinwalkers have used this stone to carve totems out of for generations, each depiction representing their spirit animal, or spirit guide, and refer to the type of stone as the "Rock Blessed By the Shaman."
+<br>
+Haki has carved one of these totems for herself, depicting her spirit animal; the Falcon. She has also imbued it with her mana in order to turn it from a typical piece of jewelry, into a full fledged High Mage Medium. The effects of this Medium on her magic are basic. For her Spiritualism, it reduces the cast times for her spirit summons by one post (only works on spirit summons she already had before the making and approval of this medium), slightly reduces the amount of mana her Spirit Force based spells cost, and causes each spirit she summons through it to take on the appearance of her spirit animal. This appearance effect is purely aesthetic and does not make the spirits tangible or give them the abilities of birds of prey. 
+<br>
+For her Witchcraft based practice, it merely slightly reduces the cost of mana required to successfully craft her potions.
+<br><br>
+<h1>Items & Weapons</h1>
+<b>Makeshift Blowdart Gun</b><br>
+A rather thin and small hollowed out piece of carved wood. The object itself is only about six inches in length and one inch in width.
+<br><br>
+<b>"Darts"; Impalar Quills</b><br>
+Small and very thin tough little sharp quills that Haki uses as ammo for her blowdart gun. They are usually coated in some sort of toxin or potion. While much longer on the actual creature, Haki breaks them when coating them in order to make them about four inches long.
+<br><br>
+<b>Glass Bottles & Vials</b><br>
+Typical resilient glass containers that are commonly used for holding potion ingredients, potions themselves, or even various venoms and poisons she can pick up from the natural wildlife of the Esmereldan Isles.
+<br><br>
+<b>Small Satchel</b><br>
+A typical small purse sized sack made of tanned deer hide with a long over-the-shoulder strap. Inside are pockets and slots that allow Haki to keep various objects organized. There are even bottle slots for her potion vials.
+<br><br>
+<b>Big Sack</b><br>
+Woven much like a potato sack, this burlap bag is almost as large as the female who owns it and typically carries her clothing and other various belongings she may collect over the course of the role-play.
+</div>
+
+<div id="tab3">
+<b>Species:</b> Tree Guardian<br>
+<b>Race:</b> Skinwalker<br><br>
+<h1>Skinwalker Racials</h1>
+<b>Aging</b><br>
+This particular species ages physically until they find their life's purpose and accept that purpose as their fate. Once they swear an oath to the gods that they will carry out this purpose, they stop aging completely. Their purpose being fulfilled often ends in their deaths.
+<br><br>
+<b>Shift</b><br>
+The simple act of shifting between their True Forms and Humanoid Forms. (True Forms described in Detailed Information) Only in their true forms can Skinwalkers obtain speed twice as fast as a human's and gain a slight resistance to Electromancy. Transformation is not instant (two posts) and is a rather painful process. Gains x2 speed, x1.5 Electric resistance, and x1.5 weakness to Photokinetics.
+<br><br>
+<b>Vision</b><br>
+Skinwalker eyes are very adaptable to light. When there is very little light their eyes become very light sensitive, allowing them to see in the dark when there is barely any light to see with. This also allows their eyes to adjust back to being less sensitive to light in bright situations, making sunglasses useless to them. This makes them overly sensitive to very sudden changes in light. The smallest of flashes can cause the biggest of migraines. (Bright flashes are more effective against them even from a further distance.)
+<br><br>
+<b>Scent</b><br>
+The nose of a Skinwalker--and their sense of taste--is as sensitive as a dog's. (x2 human) This also means obnoxious scents and foul tastes will effect them worse than most.
+<br><br>
+<b>Bone Strength</b><br>
+The bones of a Skinwalker are the cause of most of their weight, being as tough as iron. Thanks to this fact, their muscles have to work extra hard through their lives for the simplist tasks, making their bodies tough, hard, and strong. (x2 human strength, Iron Grade bone density) Healing bone based wounds takes longer and will cause Faith sickness to last for a longer period of time.
+</div>
+
+<div id="tab4">
+<h1>Universal Spells (Mana Manipulation)</h1>
+<i>"The most basic class of magic, involving the direct manipulation of Mana, is available to all mages. Raw Mana is a mundane source of magic with no special qualities, but offers some level of versatility. The amount of Mana a mage is capable of replenishing or expelling is dependent on their overall level. (Most spells taught in class are under this tree. Spells taught in class must be on your character sheet, and any alterations or upgrades to taught spells must be discussed with a professor.)"</i>
+<br><br>
+<b>Natural Aura</b><br>
+Every living thing has mana, and the colors of their mana and their aura vary from person to person. Haki's mana is always a soft violet color, but varies in its shades depending on her mood.
+<br><i>"Purple combines the calm stability of blue and the fierce energy of red. The color purple is often associated with royalty, nobility, luxury, power, and ambition. Purple also represents meanings of wealth, extravagance, creativity, wisdom, dignity, grandeur, devotion, peace, pride, mystery, independence, and magic."</i>
+<br><br>
+<b>Mana Weave</b><br>
+The simple act of moving one's mana pool through their own body. Channeling one's mana. 
+<br><br>
+<b>Mana Spark</b><br>
+Basic mana projectile that can be used offensively or defensively. ​It causes no real damage other than a small sting when hit directly in the flesh.
+<br><br>
+<b>Mana Meditation</b><br>
+This spell takes two posts, the first post charges the spell, the second post activates it. If a mage meditates on whatever is causing them pain or discomfort--meaning they focus their undivided attention inward or to whatever specific part of their body is hurting--and slowly weave their mana to that particular place, they will be able to activate this spell. Mana Meditation increases a mage's natural pain tolerance slightly and can calm whatever natural shock they may be experiencing, allowing them to function better. Natural shock meaning the universal spell won't work on magic based shock (i.e. if a spell or magic substance forces the mind and body to go into shock).
+<br><br>
+<b>Mana Rehabilitation</b><br>
+This spell takes two posts, the first post charges the spell, the second post activates it. If a mage temporarily focuses on whatever is causing them pain or discomfort--meaning they focus their most of their attention inward or to whatever specific part of their body is hurting or being affected by an external source--and weave their mana to that particular place, they will be able to activate this spell. Mana Rehabilitation increases a mage's natural pain tolerance by x1.5 and can calm whatever natural shock or magic based shock (spells that cause pain/shock/discomfort of up to Mage rank) that part of their body may be experiencing. (Can take a tiny bit of edge off higher ranked spells, but not very much, will mainly be ineffective to anything higher than mage rank.) 
+<br><br>
+<b>Gel Sphere</b><br>
+By creating a mana spark and continuing to weave your mana around the spark like a web, eventually the orb one forms will expand into a small sphere of an incredibly adhesive substance. Once casted, this spell lasts for three posts, and has a toughness of aluminum. 
+<br><br>
+<b>Mana Pane</b><br>
+When focusing one's mana before them and swirling it in a vortex quickly and violently, one may allow their mana to harden, causing a thin pane to form. This spell can only be used defensively and the power it can block is minimal, ranking at iron toughness. This spell can be learned by anyone of mage rank and above, but upon reaching high mage, one may cast two of these at a time, one for each hand. 
+<br><br>
+<b>Summon Medium</b><br>
+A spell that allows a user to transport their medium from a previous location into their hands. Only one medium can be used at a time with this spell, and can include HMM's, as well as basic objects and weapons. To change one's medium, one must use it at least once before being able to actively summon it. 
+<br><br>
+<b>Show of Force</b><br>
+A spell that aims to leave nothing to the imagination, show of force is a vibrantly powerful aura that's very sight gives off information to other mages in the nearby area. Allowing mana to weave through one's entire body while exerting it (as if it were a muscle) with as much strength as possible, the created aura will immediately warn onlooking mages of the casters rank. Spectators will also feel an intense pressure radiation from the questioning mage depending on their rank; the higher mastery of mana one has, the more intimidating the aura will be perceived as.
+<br><br>
+<b>Mana Scouter</b><br>
+An inverse to show of force, mana scouter allows a caster to get an inside look at the energies swirling inside of other potential combatants or allies. Created by weaving mana into the eyeball (or biological place of sight) while inferring it with the intent of detection, one may use the magic to gaze upon other mages and receive a physical view of their mana pool. Although this does not immediately tell a mage of their targets rank, it will allow them to estimate their power by the size of their mana pool. It also allows for mages to get an idea of what a possible opponent may have left to work with. It works at a medium distance (20 feet) but becomes more and more taxing (both on mana consumption and mental stress) depending on the relation between the casters mana and what they observe. Seeing a mana pool much higher than one's own (even if the target is the same rank) or too many different mana pools at once will not only cause the spell to drain higher amounts of energy, but it will also stun a person for a few moments, providing a harsh migraine. 
+<br><br>
+<b>Mana Parry</b><br>
+An essential for any duelist, Mana parry allows the caster to disperse the cost of an enemy's projectile and cause it to violently parry off of their bodies, dispelling the attack to a basic form of energy. In a complicated set of movements, the caster must create a solidified pane of mana upon an appendage or object, and swipe it against an incoming projectile. Upon contact, the caster has a split second to match their mana levels with the opposing spells, which causes the projectile to meld with the casters mana and remove all secondary effects from the energy. This causes the spell to fly off in a random direction, reverted to base mana but still powerful enough to do damage based on the rank of the attack. Casters who use this can only do so on spells of their rank and below, and to do so costs the exact same amount of mana as the spell in question, so one should keep this in mind before parrying anything. Projectiles that have special effects such as detonation, or abilities that can be triggered mid flight can be activated before a spell is able to be parried.
+<br><br>
+<b>Spirit Beacon</b><br>
+Rather than projecting one's mana from the mind in a pulse, this requires focus to be gathered to one's very core of being until released into the world around them. It scatters outward in a pulse like Mana Beacon, but is targeted specifically at Faith Mages, Necromancers and Spiritualists, intended to only be sensed by mages who follow those trees. While it opens up the possibility of being detected over a vaster distance (still within the same chat but a considerably larger range, with some very specific exceptions), it also offers the opportunity to warn aforementioned mages that a spirit may be disconnected from the body (recently or will be soon) and will require a guide back for revival.
+<br>
+Upon reaching Expert Mage, focusing on this spell as it is being cast will allow the caster to choose which specific type of previously listed mage (Faith, Necromancer, Spiritualist) they desire to be able to sense their beacon.
+<br><br>
+<b>Mana Retaliate</b><br>
+An upgrade to Mana Parry, this technique requires the user to weave their magic into a point of contact (such as their hand or a medium) and double the amount of an incoming projectile. Upon swiping the point of contact against the opposing force, the extra mana will override the attack and transform it into an orb-like blob of magic. The caster of Retaliate must push this slow-moving orb back toward them, and break it open before it makes contact with their body. This can be done by any basic projectile, such as mana parry, and will shatter the magic into three separate and more solid components. These shattered pieces are about the size of a fist, and shaped in an almost arrow-like manner; they fly at a relatively high speed in intricate and hard to follow patterns that eventually track the original attackers location for up to 60 feet away. Upon reaching five feet from their target, the three shards scatter, sending the brightest of the trio at the front of the attacker, while the other two dull projectiles attempt to pincer each of their sides. The frontal projectiles strength remains the same power as the original retaliated attack, and the two side projectiles work at about a rank lower. This is an expert mage only spell, and cannot be used against projectiles above the casters rank.
+</div>
+
+<div id="tab5">
+<h1>Spiritualism; High Mage</h1>
+<i>"Arguably one of the most powerful trees; Spiritualists possess the ability to speak to and beseech the spirits around themselves. This often requires much time, and also requires the spirits to agree with the mage's cause. One without conviction will not do well within this study. Spiritualists gain access to a unique mana type at Mage rank, which has been deemed "Spirit Force." Spirit Force has the capability to heal the soul, and at some level the flesh as well.​"</i>
+<br><br>
+<h1>Paige Spells</h1>
+<b>Eavesdropping</b><br>
+Haki makes a contract with a spirit, sending them to the next room to listen to what is being said. The spirit just reports back to her and then is free from the contract. Takes two posts, one to charge and the second casts. The spirit can only stay away from Haki for two posts before it makes its return and offers its report. Maximum range of twenty feet and can only pass through thin/non-magic walls.
+<br><br>
+<b>Shadow's Pull</b><br>
+The Skinwalker befriended a fellow member of her Family whose name was Ahote. After losing his life, she remained in contact with his spirit and their bond only grew stronger. When calling on Ahote, he will wrap his ghostly arms around Haki and cause her to be as hidden from sight as he is. Takes two posts, one to charge and one to cast. Any higher ranking Spiritualist or Necromancer (or any higher ranked mage with a sensory spell active) can see her when this spell is active. Currently movement causes a slight blur around her (kind of like Predator!)
+<br><br>
+<b>Animation</b><br>
+After politely asking a spirit, if the ethereal being accepts, this spell will cause the spirit to lift an object and carry it around for Haki. Two posts, one to summon the spirit and the other to carry out the effects. The object in question can weigh no more than 30 lbs. and cannot measure more than three feet at any angle. Spirit will only carry object for two posts. The maximum range of this spell is a twenty foot radius around the caster.
+<br><br>
+<h1>Mage Spells</h1>
+<b>Invisible Scout</b><br>
+Haki makes a contract with a spirit, which will send them to scout a set area within a specific radius. The spirit just reports back to her and then is free from the contract. Takes two posts, one to charge and the second casts. The spirit can only stay away from Haki for three posts before it makes its return and offers its report. Maximum range of thirty feet and can only pass through thinner walls, thicker (brick or stone) walls, or, non-magic walls (if any walls are present). This spirit can scout other mages and still remain hidden from them so long as they are not Spiritualists, Necromancers, or any other mage with sensory spells that are higher ranking than the caster. (Necromancers and Spiritualists of lower ranks cannot see this spirit summon)
+<br><br>
+<b>Shadow's Pull</b><br>
+The Skinwalker befriended a fellow member of her Family whose name was Ahote. After losing his life, she remained in contact with his spirit and their bond only grew stronger. When calling on Ahote, he will wrap his ghostly arms around Haki and cause her to be as hidden from sight as he is. Takes two posts, one to charge and one to cast. Any higher ranking Spiritualist or Necromancer (or any higher ranked mage with a sensory spell active) can see her when this spell is active. This spell does not mask noise or body heat so those at extremely close range would be able to surmise something was near them if given enough time.
+<br><br>
+<b>Animation</b><br>
+After politely asking a spirit, if the ethereal being accepts, this spell will cause the spirit to lift an object and carry it around for Haki. Two posts, one to summon the spirit and the other to carry out the effects. The object in question can weigh no more than 100 lbs. and cannot measure more than five feet at any angle. Spirit will only carry object for four posts. The maximum range of this spell is a twenty-five foot radius around the caster. Objects cannot be magically inclined (so other peoples mediums or spell stuff, like potions or conjurations etc.) 
+<br><br>
+<b>Change of Heart</b><br>
+She forms a small baseball-sized orb of Spirit Force between her hands and gently pushes the orb into the target. This spell is supposed to painlessly sink into the body of the target and form like a bubble around their "soul," allowing any soul based damage (of equal rank or lower) to be cleansed and/or healed. Since the nature of the caster's Spirit Force is very icy, however, this spell is likely to cause as much discomfort as it is helping, and will send cold chills through the target's body. Physical contact needs to be made with the spell for it to be effective, cannot be used as a projectile more than ten feet away from the caster. Can only be thrown by hand, not shot telepathically. Only one of these orbs can be formed and active at a time. 
+<br><br>
+<b>Commune</b><br>
+As Haki meditates on her own body for two whole posts, she coats her figure in a thin layer of Spirit Force. This temporarily fills her with physical and spiritual adrenaline, giving her summoning a one post boost, meaning it takes one less post for her to summon her current collection of spirits (only works on Animation, Invisible Scout, and Shadow's Pull). It also fills her body with a x1.5 energy boost, allowing her to knock off a post for shifting into her True Skinwalker Body. Only lasts four posts.
+<br><br>
+<h1>Expert Mage Spells</h1>
+<b>Shadow's Pull</b><br>
+The Skinwalker befriended a fellow member of her Family whose name was Ahote. After losing his life, she remained in contact with his spirit and their bond only grew stronger. When calling on Ahote, he will wrap his ghostly arms around Haki and cause her to be as hidden from sight and sound as he is. No longer takes two posts. Any higher ranking Spiritualist or Necromancer (or any higher ranked mage with a sensory spell active) can see her when this spell is active (scales to High Mage). This spell does mask sound now but not body heat so those at extremely close range would be able to surmise something was near them if given enough time.
+<br><br>
+<b>Animation</b><br>
+After politely asking a spirit, if the ethereal being accepts, this spell will cause the spirit to lift an object and carry it around as well as use said object (so long as it's not magically inclined and isn't something complicated to operate). Two posts, one to summon the spirit and the other to carry out the effects. The object in question can weigh no more than 120 lbs. and cannot measure more than seven feet at any angle. Spirit will only carry object for five posts. The maximum range of this spell is a thirty foot radius around the caster.
+<br><br>
+<b>Commune</b><br>
+As Haki meditates on her own body for two whole posts, she coats her figure in a thick layer of Spirit Force. This temporarily fills her with physical and spiritual adrenaline, giving her summoning a one post boost, meaning it takes one less post for her to summon her current collection of spirits (only works on Animation, Invisible Scout, and Shadow's Pull). It also fills her body with a x1.5 energy boost, allowing her to knock off a post for shifting into her True Skinwalker Body, and a x1.5 speed boost. While this aura-like spell is active, its thick coating also protects her flesh with a flexible energy based suit of armor with a toughness grade of Cobalt (scales to Titanium at High Mage). Only lasts five posts, can be refreshed for up to two bonus posts if a post is spent charging the spell again before depleted. 
+</div>
+
+<div id="tab6">
+<h1>Witchcraft; Mage</h1>
+<i>"It's debatable that Wizardry offers more utility than any other tree. They provide a number of banes and boons through the use of Artifacts, Curses, Hexes and Potions, but lack a lot of fire power when in comparison to most of the other trees. Wizards are also, outside of faith mages, the only mages that can remove curses.​" </i>
+<br><br>
+<h1>Paige Spells</h1>
+<b>Minor Adrenaline Potion</b><br>
+Haki brews a potion that can be consumed at a later date. Upon drinking this potion, she gains an energy boost; allowing her to move faster and posses a quicker reaction time for three posts. This boost is not overly large; due to it being a paige spell, mimicking the effects of a shot of adrenaline. Ingredients required are basic; algae, water, Kra’tu dew (the dew of a native flower of the Esmerelda Isles, extremely cold to the touch).
+<br><br>
+<b>Makeshift Blowdart</b><br>
+A small wooden artifact, no longer than six inches and no wider than one inch. Just a plain hollowed out stick that uses Impalar quills as ammo, and requires Haki to blow into one end for the ammo to shoot out the other. The magic quality of this artifact gives its projectiles a slight boost in speed and impacting force.
+<br><br>
+<b>Angry Wasp</b><br>
+A brewed potion that is used to coat sharp objects like a salve (like Impalar quills turned to ammo or the tip of an arrow). If the item in question coated in this substance breaks skin, the area of damage will gain minor burning and swelling as though the victim had been stung by a bee. Effects are nonlethal and can easily be healed by time (about 3 hours) or instantly by any Faith mage. The ingredients required are wyvern wasp venom, water, and sap from a sugar coral tree.
+<br><br>
+<h1>Mage Spells</h1>
+<b>Tribal Blowdart (Upgrade to Makeshift Blowdart)</b><br>
+A small wooden artifact, no longer than six inches and no wider than one inch. Just a plain hollowed out stick that uses Impalar quills as ammo, and requires Haki to blow into one end for the ammo to shoot out the other. The magic quality of this artifact allows the quills to travel at twice the normal speed they normally would (just from being blown out the end with normal lungs). It also covers its ammo in a protective layer of magic that makes them as tough and as sharp as iron. Quills are a natural separate entity and can be coated in whatever toxins (or potions that work like toxins) she has at her disposal.
+<br><br>
+<b>Hateful Wasp (Upgrade to Angry Wasp)</b><br>
+A brewed potion that is used to coat sharp objects like a salve (like Impalar quills turned to ammo or the tip of an arrow). If the item in question coated in this substance breaks skin, six inches around the area of damage will grow painful sensitive welts the size of gumballs. Effects are nonlethal so long as the damaged area isn't near any vital organs or airways, and can easily be healed by time (about 6 hours) or instantly by any Faith mage. The ingredients required are wyvern wasp venom, water, sap from a sugar coral tree, and now oils from "Stinking Oranges" (native plant that grows in the Free Lands).
+<br><br>
+<b>Tempest's Toxin (Upgrade to Minor Adrenaline Potion, taught by Malcolm)</b><br>
+Upgrade to Adrenaline potion, with added ingredients, and a tighter control of magic weaving into the concoction, the adrenaline potion has become extremely volatile. When ingested by Haki, her physical capabilities hit their peak, allowing her to move and react double what she normally could. The drawback to this potion is that it creates an extremely large influx of mana, and must be burned off while the potions effects are active. It constantly burns mana in the three posts it remains active; taking one third of her remaining mana pool before consumption. Ingredients required equal those in the original spell, as well as dreadsnake oils; the oil of a toxic snake found in the free lands.
+</div>
